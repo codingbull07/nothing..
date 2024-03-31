@@ -1,0 +1,42 @@
+import time
+
+def print_heart():
+    heart = '''
+           ****   ****
+        **      **      **
+      **         **         **
+    **            **            **
+  **               **               **
+ **                 **                 **
+ **                 **                 **
+ **                 **                 **
+  **               **               **
+    **            **            **
+      **         **         **
+        **      **      **
+           ****   ****
+               **
+'''
+    print(heart)
+
+def describe_qualities():
+    qualities = """
+    Priyanka, you are truly special. Your maturity shines through in every action you take, 
+    your understanding nature brings comfort to those around you, and your wisdom guides 
+    us through challenges with grace. Your kindness knows no bounds, and your strength 
+    inspires us all. You are a beacon of light in our lives, and we are grateful for your 
+    presence every day.
+    """
+    print(qualities)
+
+def main():
+    print("Hey there, Priyanka!")
+    print("Here's a heart for you:")
+    print_heart()
+    print("I love you so much! ❤️")
+    time.sleep(2)  # Delay for dramatic effect
+
+    describe_qualities()
+
+if __name__ == "__main__":
+    main()
